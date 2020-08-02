@@ -1,0 +1,30 @@
+:root {
+  --background-color-light: hsl(0, 3%, 90%);
+  --background-color-dark: hsl(210, 7%, 15%);
+  --lighter-dark: hsl(210, 7%, 50%);
+  --navbar-color: #fff;
+
+  --active: #2a8ed5;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: var(--background-color-light);
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
