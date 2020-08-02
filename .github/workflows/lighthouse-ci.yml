@@ -10,5 +10,7 @@ jobs:
         run: npm install && npm install -g @lhci/cli@0.4.x
       - name: Build frontend
         run: npm run build
+      - name: Serve frontend
+        run: npm run serve
       - name: Run LightHouse CI
         run: lhci autorun
