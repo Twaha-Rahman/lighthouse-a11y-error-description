@@ -14,30 +14,18 @@ const Header = () => {
       <Link activeClassName={style.active} alt="Link to Home page" href="/">
         <HomeSvg />
       </Link>
-      <Link
-        activeClassName={style.active}
-        alt="Link to Categories page"
-        href="/profile"
-      >
+      <Link activeClassName={style.active} alt="Link to Categories page" href="/profile">
         <BoxSvg />
       </Link>
-      <Link
-        activeClassName={style.active}
-        aria-label="Search"
-        href="/profile/john"
-      >
+      <Link activeClassName={style.active} alt="Search" href="/profile/john">
         <SearchSvg />
       </Link>
 
-      <Link activeClassName={style.active} aria-label="Cart" href="/cart">
+      <Link activeClassName={style.active} alt="Cart" href="/cart">
         <CartSvg />
       </Link>
 
-      <Link
-        activeClassName={style.active}
-        aria-label="Settings"
-        href="/settings"
-      >
+      <Link activeClassName={style.active} alt="Settings" href="/settings">
         <CogSvg />
       </Link>
     </nav>
